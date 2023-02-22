@@ -1,0 +1,60 @@
+export const projects = [
+  {
+    id: 1,
+    title: "murk",
+    tech: ["C#", "Unity", "Procreate"],
+    desc: "It is a single-player endless game, where you must dodge obstacles, collect stars and complete tasks.",
+    projectLink: "https://shrutz.com/",
+    githubLink: "",
+  },
+  {
+    id: 2,
+    title: "netflix clone",
+    tech: ["react-router", "redux", "redux-persist"],
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    projectLink: "",
+    githubLink: "https://github.com/shrutishri2208/netflix-clone",
+  },
+  {
+    id: 3,
+    title: "UI components",
+    tech: ["react.js", "CSS"],
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    projectLink: "",
+    githubLink: "",
+  },
+  {
+    id: 4,
+    title: "voting application",
+    tech: ["hardhat", "ether.js", "react.js"],
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    projectLink: "",
+    githubLink: "",
+  },
+  {
+    id: 5,
+    title: "wave portal",
+    tech: ["hardhat", "ether.js", "HTML", "CSS"],
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    projectLink: "",
+    githubLink: "",
+  },
+  {
+    id: 6,
+    title: "portfolio site",
+    tech: ["react-router", "tailwindcss", "material UI"],
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    projectLink: "",
+    githubLink: "",
+  },
+  {
+    id: 7,
+    title: "website for murk",
+    tech: ["HTML", "CSS", "javascript"],
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    projectLink: "",
+    githubLink: "",
+  },
+];
+
+//WAVE PORTAL

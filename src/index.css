@@ -1,13 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 3rem;
+  font-family: "Syncopate", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/Background.png");
+  background-size: cover;
+  color: white;
+  /* overflow: hidden; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.logo {
+  height: 1.5rem;
+  margin-left: 0.4rem;
+}
+
+.name {
+  font-size: 6rem;
+  font-weight: bolder;
+  line-height: 5rem;
+  background: linear-gradient(
+    135deg,
+    rgb(255, 243, 151) 0%,
+    rgb(255, 83, 163) 25%,
+    rgba(255, 243, 151) 50%,
+    rgb(255, 83, 163) 75%,
+    rgba(2255, 243, 151) 100%
+  );
+  background-size: 400%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* animation: text-color 20s linear infinite; */
+}
+
+@keyframes text-color {
+  to {
+    background-position: 400%;
+  }
+}
+
+.description,
+.game-description {
+  line-height: 2.3rem;
+}
+.highlight1,
+.highlight2 {
+  color: black;
+  background: white;
+  border-radius: 4rem;
+  padding: 0.3rem;
+  border: 2px solid white;
+}
+
+.highlight1:hover {
+  cursor: pointer;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  transition: all 0.3s;
+}
+
+/* .btn-container {
+  transform: translate(150%, 0%);
+} */
+
+/***********************************************************************/
+/* Projects Page */
+
+.projects-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.project-item {
+  border: 4px solid rgb(255, 255, 255, 0.5);
 }
