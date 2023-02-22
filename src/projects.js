@@ -9,8 +9,15 @@ export const projects = [
   },
   {
     id: 2,
-    title: "netflix clone",
-    tech: ["react-router", "redux", "redux-persist"],
+    title: "netflix-clone",
+    tech: [
+      "react-router",
+      "redux",
+      "redux-persist",
+      "tailwindcss",
+      "material UI",
+      "Rapid API",
+    ],
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     projectLink: "",
     githubLink: "https://github.com/shrutishri2208/netflix-clone",

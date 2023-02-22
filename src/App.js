@@ -11,11 +11,12 @@ function App() {
     <div className="App">
       <div className="">
         <Header />
-        <Routes>
+        <LandingPage />
+        {/* <Routes>
           <Route exact path="/" element={<LandingPage />} />
           <Route exact path="/projects" element={<ProjectsPage />} />
           <Route exact path="/about" element={<AboutPage />} />
-        </Routes>
+        </Routes> */}
         <Footer />
       </div>
     </div>

@@ -11,12 +11,10 @@ const Header = () => {
         </div>
       </Link>
       <div className="flex">
-        <Link to="/projects">
+        {/* <Link to="/projects">
           <h2 className="text-2xl ml-20">projects</h2>
-        </Link>
-        <Link to="/about">
-          <h2 className="text-2xl ml-20">about</h2>
-        </Link>
+        </Link> */}
+        <h2 className="text-xl mr-4 highlight1">resume</h2>
       </div>
     </div>
   );
