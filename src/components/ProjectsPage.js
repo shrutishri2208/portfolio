@@ -5,9 +5,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const ProjectsPage = () => {
   return (
-    <div className="projects-container my-16">
-      <div className="text-3xl projects-heading mb-4 mt-24">projects</div>
-      <div className="items-container grid grid-cols-2 lg:grid-cols-3">
+    <div className="projects-container my-16 ">
+      <div className="2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl projects-heading mb-4 mt-24">
+        projects
+      </div>
+      <div className="items-container grid grid-cols-1 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
         {projects.map((project) => {
           const { id, title, desc, tech, projectLink, githubLink } = project;
           const techStack = tech.join(", ");
@@ -22,7 +24,9 @@ const ProjectsPage = () => {
               </div>
               <div className="project-links text-xs">
                 <button className="highlight2 mr-4">view</button>
-                <button className="highlight2">github</button>
+                <a href={githubLink} target="_blank">
+                  <button className="highlight2">github</button>
+                </a>
               </div>
             </div>
           );

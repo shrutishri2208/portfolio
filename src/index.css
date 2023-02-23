@@ -6,7 +6,7 @@
 
 :root {
   --primary-yellow: rgb(255, 243, 151);
-  --secondary-yellow: rgb(255, 253, 239);
+  --secondary-yellow: rgb(255, 250, 215);
   --primary-pink: rgb(255, 83, 163);
   --purple: rgb(73, 0, 115);
   --grey: rgb(116, 116, 116);
@@ -21,6 +21,7 @@ body {
   background-size: cover;
   color: white;
   /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 code {
@@ -29,14 +30,14 @@ code {
 }
 
 .logo {
-  height: 1.5rem;
+  height: 1.2rem;
   margin-left: 0.4rem;
 }
 
 .name {
+  opacity: 0;
   font-size: 5rem;
   font-weight: bolder;
-  line-height: 4.5rem;
   background: linear-gradient(
     135deg,
     var(--primary-yellow) 0%,
@@ -48,7 +49,7 @@ code {
   background-size: 400%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: text-color 20s linear infinite;
+  animation: text-color 20s linear infinite, fade-up-1 0.8s ease-out forwards;
 }
 
 @keyframes text-color {
@@ -56,11 +57,34 @@ code {
     background-position: 400%;
   }
 }
-
-.description,
-.game-description {
-  line-height: 1.5rem;
+@keyframes fade-up-1 {
+  from {
+    opacity: 0;
+    transform: translate(0%, 20%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
 }
+
+.description {
+  opacity: 0;
+  line-height: 1.5rem;
+  animation: fade-up-2 0.8s ease-out 0.4s forwards;
+}
+
+@keyframes fade-up-2 {
+  from {
+    opacity: 0;
+    transform: translate(0%, 50%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
+}
+
 .highlight1 {
   color: black;
   background: white;
@@ -74,13 +98,13 @@ code {
   color: white;
   background: transparent;
   border: 2px solid white;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .highlight2 {
   color: white;
   background: var(--purple);
   border-radius: 4rem;
-  padding: 0.3rem;
+  padding: 0.3rem 0.5rem;
   border: 2px solid var(--purple);
 }
 
@@ -89,7 +113,22 @@ code {
   color: var(--purple);
   background: transparent;
   border: 2px solid var(--purple);
-  transition: all 0.3s;
+  transition: all 0.5s;
+}
+.highlight3 {
+  color: black;
+  background: white;
+  border-radius: 4rem;
+  padding: 0.15rem;
+  border: 2px solid white;
+}
+
+.highlight3:hover {
+  cursor: pointer;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  transition: all 0.5s;
 }
 
 /* .btn-container {
@@ -107,16 +146,27 @@ code {
 .projects-heading::after {
   content: "";
   height: 1px;
-  width: 80%;
+  width: 0%;
   background: white;
   position: absolute;
   top: 40%;
   margin-left: 1rem;
+  animation: line 0.5s ease-in 1.5s forwards;
+}
+
+@keyframes line {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 84%;
+  }
 }
 
 .project-item {
   background-color: var(--secondary-yellow);
   color: black;
+  transition: all 0.5s;
 }
 
 .project-body {
@@ -124,18 +174,38 @@ code {
   font-family: "League Spartan", sans-serif;
 }
 
-/*****************************************************************/
-/*Footer*/
+.project-item:hover {
+  transform: scale(105%);
+}
 
-.footer {
-  position: relative;
+.projects-container {
+  opacity: 0;
+  animation: fade-in 0.8s ease-in 1s forwards;
 }
-.footer::before {
-  content: "";
-  height: 1px;
-  width: 89%;
-  background: white;
-  position: absolute;
-  top: 50%;
-  left: 0;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
+/***************************************************************************/
+
+@media screen and (max-width: 640px) {
+  .name {
+    font-size: 2rem;
+    line-height: 1.8rem;
+  }
+  .description {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .projects-heading {
+    font-size: 1.5rem;
+  }
+}
+
+/***************************************************************************/

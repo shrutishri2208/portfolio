@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <div className="flex justify-end mt-16 footer b ">
       <div className="">
-        <GitHubIcon className="scale-115 ml-8 github" />
-        <LinkedInIcon className="scale-125 ml-8" />
-        <EmailIcon className="scale-125 ml-8" />
+        <GitHubIcon className="scale-150 ml-8 highlight3" />
+        <LinkedInIcon className="scale-150 ml-8 highlight3" />
+        <EmailIcon className="scale-150 ml-8 highlight3" />
       </div>
     </div>
   );
