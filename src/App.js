@@ -2,14 +2,11 @@ import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
-import ProjectsPage from "./components/ProjectsPage";
-import AboutPage from "./components/AboutPage";
-import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <div className="">
+      <div className="flex flex-col justify-center m-auto">
         <Header />
         <LandingPage />
         {/* <Routes>
