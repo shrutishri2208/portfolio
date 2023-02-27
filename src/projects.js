@@ -4,7 +4,8 @@ export const projects = [
     title: "murk",
     tech: ["C#", "Unity", "Procreate"],
     desc: "It is a single-player endless game, where you must dodge obstacles, collect stars and complete tasks.",
-    projectLink: "https://shrutz.com/",
+    projectLink:
+      "https://play.google.com/store/apps/details?id=com.shrutz.murk",
     githubLink: "https://github.com/shrutishri2208/murk",
   },
   {
@@ -26,9 +27,9 @@ export const projects = [
   {
     id: 3,
     title: "UI components",
-    tech: ["react.js", "CSS"],
+    tech: ["react.js", "CSS", "tailwindcss"],
     desc: "It is collection of components which are animated using SVG and CSS animations.",
-    projectLink: "",
+    projectLink: "https://ui-components-sandy.vercel.app/",
     githubLink: "https://github.com/shrutishri2208/UI-components",
   },
   {
@@ -47,29 +48,30 @@ export const projects = [
     projectLink: "",
     githubLink: "https://github.com/shrutishri2208/netflix-clone",
   },
-
   {
     id: 5,
+    title: "wave portal",
+    tech: ["hardhat", "ether.js", "react.js"],
+    desc: "It is a simple profile site where you can request test ethers after every 10 minutes, by connecting your Ethereum wallet.",
+    projectLink: "",
+    githubLink: "https://github.com/shrutishri2208/wave-portal",
+  },
+
+  {
+    id: 6,
     title: "voting application",
     tech: ["hardhat", "ether.js", "react.js"],
     desc: "It is a decentralized application that can be used for casting and recording votes. The user can connect his wallet and vote for his preferred candidate once.",
     projectLink: "",
     githubLink: "https://github.com/shrutishri2208/election-portal",
   },
-  {
-    id: 6,
-    title: "wave portal",
-    tech: ["hardhat", "ether.js", "HTML", "CSS"],
-    desc: "It is a simple profile site where you can request test ethers after every 10 minutes, by connecting your Ethereum wallet.",
-    projectLink: "",
-    githubLink: "https://github.com/shrutishri2208/wave-portal",
-  },
+
   {
     id: 7,
     title: "portfolio site",
     tech: ["react.js", "tailwindcss", "material UI"],
     desc: "A clean looking profile site built with react.js showcasing projects and resume.",
-    projectLink: "",
+    projectLink: "https://www.shrutz.xyz/",
     githubLink: "https://github.com/shrutishri2208/portfolio",
   },
   {
@@ -77,7 +79,7 @@ export const projects = [
     title: "website for murk",
     tech: ["HTML", "CSS", "javascript"],
     desc: "Website made with pure HTML, CSS and Javascript to promote the game MURK.",
-    projectLink: "",
+    projectLink: "https://shrutz.com/",
     githubLink: "https://github.com/shrutishri2208/murksite",
   },
 ];

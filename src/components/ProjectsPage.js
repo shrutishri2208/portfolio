@@ -1,7 +1,5 @@
 import React from "react";
 import { projects } from "../projects";
-import OpenInNewIcon from "@mui/icons-material/OpenInNew";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 const ProjectsPage = () => {
   return (
@@ -15,7 +13,7 @@ const ProjectsPage = () => {
           const techStack = tech.join(", ");
           return (
             <div key={id} className="project-item m-4 p-4 rounded-2xl">
-              <h2 className="font-bold text-2xl mb-2">{title}</h2>
+              <h2 className="font-bold text-2xl mb-2 project-title">{title}</h2>
               <div className="project-body">
                 <p className="">{desc}</p>
                 <div className="project-tech mt-4 ">
@@ -23,7 +21,11 @@ const ProjectsPage = () => {
                 </div>
               </div>
               <div className="project-links text-xs">
-                <button className="highlight2 mr-4">view</button>
+                {projectLink && (
+                  <a href={projectLink} target="_blank">
+                    <button className="highlight2 mr-4">view</button>
+                  </a>
+                )}
                 <a href={githubLink} target="_blank">
                   <button className="highlight2">github</button>
                 </a>
