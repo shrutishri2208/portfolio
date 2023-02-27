@@ -7,9 +7,21 @@ const Footer = () => {
   return (
     <div className="flex justify-end mt-16 footer b ">
       <div className="">
-        <GitHubIcon className="scale-150 ml-8 highlight3" />
-        <LinkedInIcon className="scale-150 ml-8 highlight3" />
-        <EmailIcon className="scale-150 ml-8 highlight3" />
+        <a href="https://github.com/shrutishri2208" target="_blank">
+          <GitHubIcon className="scale-150 ml-8 highlight3" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/shruti-shrivastava-676606228/"
+          target="_blank"
+        >
+          <LinkedInIcon className="scale-150 ml-8 highlight3" />
+        </a>
+        <a
+          href="mailto:shrutishri2208@gmail.com?body=Hello%20there%20profile%20viewer%20:)"
+          target="_blank"
+        >
+          <EmailIcon className="scale-150 ml-8 highlight3" />
+        </a>
       </div>
     </div>
   );
