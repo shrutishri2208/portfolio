@@ -44,7 +44,7 @@ export const projects = [
       "material UI",
       "Rapid API",
     ],
-    desc: "Build with react.js, integrates Netflix API from Rapid API. Uses redux for state management, react-router for configuring states and redux-persist to store state in local storage.",
+    desc: "Built with react.js, integrates Netflix API from Rapid API. Uses redux for state management, react-router for configuring states and redux-persist to store state in local storage.",
     projectLink: "",
     githubLink: "https://github.com/shrutishri2208/netflix-clone",
   },
