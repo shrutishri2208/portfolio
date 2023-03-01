@@ -28,7 +28,7 @@ export const projects = [
     id: 3,
     title: "UI components",
     tech: ["react.js", "CSS", "tailwindcss"],
-    desc: "It is collection of components which are animated using SVG and CSS animations.",
+    desc: "It is a react site containing a collection of components that are animated using SVG and CSS animations.",
     projectLink: "https://ui-components-sandy.vercel.app/",
     githubLink: "https://github.com/shrutishri2208/UI-components",
   },
