@@ -29,7 +29,7 @@ const Header = () => {
           <h2 className="text-2xl ml-20">projects</h2>
         </Link> */}
         <h2
-          className="2xl:text-xl xl:text-xl lg:scale-100 md:scale-95 sm:-mt-4 sm:scale-75 -mt-3 scale-75 mr-4 highlight1"
+          className="resume-btn 2xl:text-xl xl:text-xl lg:scale-100 md:scale-95 sm:-mt-4 sm:scale-75 -mt-3 scale-75 mr-4 highlight1"
           onClick={handleResumeClick}
         >
           resume
