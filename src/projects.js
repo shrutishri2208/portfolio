@@ -1,15 +1,6 @@
 export const projects = [
   {
     id: 1,
-    title: "murk",
-    tech: ["C#", "Unity", "Procreate"],
-    desc: "It is a single-player endless game, where you must dodge obstacles, collect stars and complete tasks.",
-    projectLink:
-      "https://play.google.com/store/apps/details?id=com.shrutz.murk",
-    githubLink: "https://github.com/shrutishri2208/murk",
-  },
-  {
-    id: 2,
     title: "streaming app",
     tech: [
       "react.js",
@@ -23,6 +14,28 @@ export const projects = [
     desc: "It is a completely responsive react app integrated with API. You can browse movies and series and create your own list.",
     projectLink: "https://streaming-app-green.vercel.app/",
     githubLink: "https://github.com/shrutishri2208/streaming-app",
+  },
+  {
+    id: 2,
+    title: "food delivery app",
+    tech: [
+      "react native",
+      "NativeWind",
+      "redux",
+      "redux-persist",
+      "sanity CMS",
+    ],
+    desc: "It is a food delivery app, where you can browse restaurants with a working cart functionality. It uses sanity CMS for storing and fetching data.",
+    githubLink: "https://github.com/shrutishri2208/food-delivery-app",
+  },
+  {
+    id: 2,
+    title: "murk",
+    tech: ["C#", "Unity", "Procreate"],
+    desc: "It is a single-player endless game, where you must dodge obstacles, collect stars and complete tasks.",
+    projectLink:
+      "https://play.google.com/store/apps/details?id=com.shrutz.murk",
+    githubLink: "https://github.com/shrutishri2208/murk",
   },
   {
     id: 3,
