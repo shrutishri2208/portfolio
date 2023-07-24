@@ -6,7 +6,7 @@
 
 :root {
   --primary-yellow: rgb(255, 243, 151);
-  --secondary-yellow: rgb(255, 250, 215);
+  --secondary-yellow: rgb(255, 252, 228);
   --primary-pink: rgb(255, 83, 163);
   --purple: rgb(73, 0, 115);
   --grey: rgb(116, 116, 116);
@@ -105,15 +105,17 @@ code {
   background: var(--purple);
   border-radius: 4rem;
   padding: 0.3rem 0.5rem;
-  border: 2px solid var(--purple);
+  border: 3px solid var(--purple);
+  font-weight: 700;
 }
 
 .highlight2:hover {
   cursor: pointer;
   color: var(--purple);
   background: transparent;
-  border: 2px solid var(--purple);
+  border: 3px solid var(--purple);
   transition: all 0.5s;
+  background: #fff;
 }
 .highlight3 {
   color: black;

@@ -1,6 +1,14 @@
 export const projects = [
   {
     id: 1,
+    title: "PagePlay",
+    tech: ["vanilla JS", "CSS", "YouTube Data API v3"],
+    desc: "PagePlay is a chrome extension that suggests YouTube videos related to the webpage you are currently browsing. It runs in the background and analyses the webpage you are on to suggest videos that match the content.",
+    projectLink: "https://pageplay-site.vercel.app/",
+    githubLink: "https://github.com/shrutishri2208/page-play",
+  },
+  {
+    id: 2,
     title: "streaming app",
     tech: [
       "react.js",
@@ -16,7 +24,7 @@ export const projects = [
     githubLink: "https://github.com/shrutishri2208/streaming-app",
   },
   {
-    id: 2,
+    id: 3,
     title: "food delivery app",
     tech: [
       "react native",
@@ -29,7 +37,22 @@ export const projects = [
     githubLink: "https://github.com/shrutishri2208/food-delivery-app",
   },
   {
-    id: 2,
+    id: 4,
+    title: "WordWise",
+    tech: ["vanilla JS", "CSS", "WordsAPI"],
+    desc: "It is a chrome extension that lets you select words on the webpage and gives their meaning, synonyms, antonyms, and other related information. You can also select sentences and get their translated versions.",
+    githubLink: "https://github.com/shrutishri2208/word-wise",
+  },
+  {
+    id: 5,
+    title: "Keyboard App",
+    tech: ["react.js", "redux", "tailwindcss"],
+    desc: "It is a completely responsive and working keyboard build in React. Also lets you change the colour themes.",
+    projectLink: "https://keyboard-chi.vercel.app/",
+    githubLink: "https://github.com/shrutishri2208/keyboard",
+  },
+  {
+    id: 6,
     title: "murk",
     tech: ["C#", "Unity", "Procreate"],
     desc: "It is a single-player endless game, where you must dodge obstacles, collect stars and complete tasks.",
@@ -38,7 +61,7 @@ export const projects = [
     githubLink: "https://github.com/shrutishri2208/murk",
   },
   {
-    id: 3,
+    id: 7,
     title: "UI components",
     tech: ["react.js", "CSS", "tailwindcss"],
     desc: "It is a react site containing a collection of components that are animated using SVG and CSS animations.",
@@ -46,7 +69,7 @@ export const projects = [
     githubLink: "https://github.com/shrutishri2208/UI-components",
   },
   {
-    id: 4,
+    id: 8,
     title: "netflix-clone",
     tech: [
       "react.js",
@@ -62,7 +85,7 @@ export const projects = [
     githubLink: "https://github.com/shrutishri2208/netflix-clone",
   },
   {
-    id: 5,
+    id: 9,
     title: "wave portal",
     tech: ["hardhat", "ether.js", "react.js"],
     desc: "It is a simple profile site where you can request test ethers after every 10 minutes, by connecting your Ethereum wallet.",
@@ -71,7 +94,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 10,
     title: "voting application",
     tech: ["hardhat", "ether.js", "react.js"],
     desc: "It is a decentralized application that can be used for casting and recording votes. The user can connect his wallet and vote for his preferred candidate once.",
@@ -80,21 +103,21 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 11,
     title: "portfolio site",
     tech: ["react.js", "tailwindcss", "material UI"],
     desc: "A clean looking profile site built with react.js showcasing projects and resume.",
     projectLink: "https://www.shrutz.xyz/",
     githubLink: "https://github.com/shrutishri2208/portfolio",
   },
-  {
-    id: 8,
-    title: "website for murk",
-    tech: ["HTML", "CSS", "javascript"],
-    desc: "Website made with pure HTML, CSS and Javascript to promote the game MURK.",
-    projectLink: "https://shrutz.com/",
-    githubLink: "https://github.com/shrutishri2208/murksite",
-  },
+  // {
+  //   id: 12,
+  //   title: "website for murk",
+  //   tech: ["HTML", "CSS", "javascript"],
+  //   desc: "Website made with pure HTML, CSS and Javascript to promote the game MURK.",
+  //   projectLink: "https://shrutz.com/",
+  //   githubLink: "https://github.com/shrutishri2208/murksite",
+  // },
 ];
 
 //WAVE PORTAL
