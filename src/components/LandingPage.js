@@ -11,7 +11,7 @@ const AboutPage = () => {
       <div className="main-text mx-2 mt-4">
         <div className="description 2xl:text-xl xl:text-xl lg:text-lg md:text-base sm:text-sm">
           i am a self-taught front-end developer and game developer, <br />{" "}
-          dabbling with <b>react</b>, <b> unity</b> and <b>blockchain</b>.
+          dabbling with <b>react</b> and <b> unity</b>.
         </div>
         {/* <div className="game-description text-2xl mt-20">
           first android game <span className="highlight1">murk</span> <br />

@@ -167,8 +167,14 @@ code {
 
 .project-item {
   background-color: var(--secondary-yellow);
+  /* background: radial-gradient(
+    100% 100% at 50% 0%,
+    #fff 0%,
+    var(--secondary-yellow) 100%
+  ); */
   color: black;
   transition: all 0.5s;
+  box-shadow: 0px 6px 15px 3px rgb(0, 0, 0, 0.4);
 }
 
 .project-body {
@@ -177,7 +183,7 @@ code {
 }
 
 .project-item:hover {
-  transform: scale(105%);
+  transform: scale(1.01);
 }
 
 .projects-container {

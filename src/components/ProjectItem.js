@@ -4,8 +4,11 @@ const ProjectItem = ({ id, title, desc, tech, projectLink, githubLink }) => {
   const techStack = tech.join(", ");
   return (
     <div className=" mb-8">
-      <div key={id} className="project-item mx-4 p-4 rounded-2xl h-full">
-        <h2 className="font-bold text-2xl mb-2 project-title">{title}</h2>
+      <div
+        key={id}
+        className="project-item mx-4 p-4 rounded-2xl h-full flex flex-col justify-between"
+      >
+        <h2 className="font-bold text-2xl mb-2 project-title ">{title}</h2>
         <div className="project-body">
           <p className="">{desc}</p>
           <div className="project-tech mt-4 ">
